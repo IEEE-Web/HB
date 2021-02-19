@@ -1,14 +1,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
 
-
-h1 {
+.card {
+    background: #fdfdfd;
+    border-radius: 4px;
+    height: 100vh;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    justify-content: space-around;
+}
+.card h1 {
     font-family: 'Happy Monkey', cursive;
     font-size: 44pt;
     margin-bottom: 1rem;
 }
-
-span {
+.card span {
     font-size: 22pt;
     font-weight: bold;
     color:rgb(18, 163, 61);
 }
+  
+  
+  @media only screen and (min-width: 1000px) {
+    .card {
+      flex-direction: row-reverse;
+    }
+    .card img.birthday {
+      width: 100%;
+      max-width: 50vw;
+      max-height: unset;
+    }
+  }
+  
+  @media only screen and (max-height: 640px) {
+    .card {
+      flex-direction: row-reverse;
+    }
+    .card img.birthday {
+      width: 100%;
+      max-width: 50vw;
+      max-height: unset;
+    }
+  }
+  
+  img.birthday {
+    max-height: 40vh;
+  }
+  
+  .card .text {
+    padding: 1em;
+  }
+  
+  /* .card .muted {
+    opacity: 0.8;
+  } */
+  
+  .card .space {
+    height: 100px;
+  }

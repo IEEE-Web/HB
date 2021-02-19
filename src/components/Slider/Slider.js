@@ -10,12 +10,13 @@ export default function Slider() {
                 {
                     messages.map(message=>{
                         return(
-                            <div className="allSlider" >
-                                <div className="containerr">
-                                    <div className="container-black" dir="rtl">
+                            <div className="allSlider" key={message.id}>
+                                <div className="container">
+                                    <div className="container-content" dir="rtl">
                                         <p>
                                         {message.message}
                                         </p>
+
                                     </div>
                                 </div>
           
