@@ -1,3 +1,7 @@
+#  About this Repo 
+- Hager is our bestfriend, we wanna give here a special birthday with a lot of love.
+- you can celebrate with us by adding a message to her, we appreciate that.
+
 # How to add your message to celebrate with us with Hager's birthday ?
 
 - Fork this repo 
