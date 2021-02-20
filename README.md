@@ -7,4 +7,4 @@
 - make a new branch to add your message
 - Then go to messages file
 - add new object with your message and your name 
-- 
+- make pull request with your changes 
