@@ -25,6 +25,13 @@
 
 }
 
+
+@media (max-width:797px){
+    .container{
+        width: 100%;
+        height: 100%;
+    }
+}
 .container-content {
     color: #DDFBEF;
     margin-top:2rem;
@@ -44,6 +51,7 @@
 .allSlider p{
     margin-top: 1rem;
     padding: .5rem;
+    font-weight: bold;
 }
 
 /* .container-black_img {

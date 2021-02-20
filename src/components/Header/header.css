@@ -15,7 +15,7 @@
 }
 .card h1 {
     font-family: 'Happy Monkey', cursive;
-    font-size: 44pt;
+    font-size: 40pt;
     margin-bottom: 1rem;
 }
 .card span {
@@ -26,20 +26,31 @@
   
   
   @media only screen and (min-width: 1000px) {
-    .card {
+   /* .card {
       flex-direction: row-reverse;
-    }
+    }*/
+    
     .card img.birthday {
       width: 100%;
       max-width: 50vw;
       max-height: unset;
     }
-  }
+    .card h1 {
+      font-family: 'Happy Monkey', cursive;
+      font-size: 24pt;
+      margin-bottom: 1rem;
+  }}
   
-  @media only screen and (max-height: 640px) {
+  
+  @media only screen and (max-height: 641px) {
     .card {
       flex-direction: row-reverse;
     }
+    .card h1 {
+      font-family: 'Happy Monkey', cursive;
+      font-size: 24pt;
+      margin-bottom: 1rem;
+  }
     .card img.birthday {
       width: 100%;
       max-width: 50vw;
