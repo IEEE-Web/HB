@@ -3,15 +3,17 @@
 .card {
     background: #fdfdfd;
     border-radius: 4px;
-    height: 100vh;
+    height: 90vh;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     text-align: center;
-    display: flex;
+   
     flex-direction: column;
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    justify-content: space-around;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 .card h1 {
     font-family: 'Happy Monkey', cursive;
@@ -24,11 +26,14 @@
     color:rgb(18, 163, 61);
 }
   
-  
+  .card img{
+    width: 60%;
+  }
   @media only screen and (min-width: 1000px) {
-   /* .card {
-      flex-direction: row-reverse;
-    }*/
+    .card {
+      grid-template-columns: 1fr 1fr;
+    }
+   
     
     .card img.birthday {
       width: 100%;
@@ -45,6 +50,7 @@
   @media only screen and (max-height: 641px) {
     .card {
       flex-direction: row-reverse;
+      
     }
     .card h1 {
       font-family: 'Happy Monkey', cursive;
@@ -55,6 +61,7 @@
       width: 100%;
       max-width: 50vw;
       max-height: unset;
+
     }
   }
   
